@@ -8,8 +8,11 @@ class Feed extends StatefulWidget {
 class _FeedState extends State<Feed> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.purpleAccent,
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Get a Pet"),
+        centerTitle: false,
+      ),
     );
   }
 }
